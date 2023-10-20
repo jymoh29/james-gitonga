@@ -1,0 +1,50 @@
+body{
+    font-family: calibri, Helvetica, sans-serif;
+    background-color: pink;
+}
+button{
+    background-color: #4caf50;
+    width: auto;
+    color: orange;
+    padding: 10px;
+    border:none;
+    cursor:pointer;
+    position:relative;
+}
+form{
+    border:3px solid#f1f1f1;
+}
+input[type=text],input[type=password]{
+    width: 50%;
+    margin:8px 0;
+    padding: 12px 20px;
+    display:inline-block;
+    border: 2px solid green;
+    box-sizing: border-box;
+    position:relative;
+}
+input[type=radio]{
+    display:inline-block;
+}
+button:hover{
+    opacity: 0.7;
+}
+break-point::before{
+    content:"hiddentext";
+    font-size:0;
+    display:block;
+    line-height:0;
+}
+break-point::after{
+    content:"hiddentext";
+    font-size:0;
+    display:block;
+    line-height:0;
+}
+container{
+    padding:25px;
+    background-color:lightblue;
+}
+h1{
+    text-align:center;
+}
