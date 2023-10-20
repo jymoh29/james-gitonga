@@ -1,50 +1,51 @@
 body{
-    font-family: calibri, Helvetica, sans-serif;
-    background-color: pink;
+    font-family: Calibri, Helvetica, sans-serif;
+    background-color:yellowgreen;
 }
 button{
     background-color: #4caf50;
     width: auto;
     color: orange;
     padding: 10px;
-    border:none;
-    cursor:pointer;
-    position:relative;
+    margin: 10px 10px;
+    border: none;
+    cursor:cursor;
+    position: relative;
 }
 form{
-    border:3px solid#f1f1f1;
+    border: 3px solid #f1f1f1;
 }
-input[type=text],input[type=password]{
+input[type=text], input[type=password]{
     width: 50%;
-    margin:8px 0;
+    margin: 8px 0;
     padding: 12px 20px;
-    display:inline-block;
+    display: inline-block;
     border: 2px solid green;
     box-sizing: border-box;
-    position:relative;
+    position: relative;
 }
 input[type=radio]{
-    display:inline-block;
+    display: inline-block;
 }
-button:hover{
-    opacity: 0.7;
+button:hover {
+opacity: 0.7;
 }
-break-point::before{
-    content:"hiddentext";
-    font-size:0;
-    display:block;
-    line-height:0;
+.braek-point::before {
+    content: "hiddentext";
+    font-size: 0;
+    display: block;
+    line-height: 0;
 }
-break-point::after{
-    content:"hiddentext";
-    font-size:0;
-    display:block;
-    line-height:0;
+.braek-point::after {
+    content: "hiddentext";
+    font-size: 0;
+    display: block;
+    line-height: 0;
 }
-container{
-    padding:25px;
-    background-color:lightblue;
+.container {
+    padding: 25px;
+    background-color: lightblue;
 }
-h1{
-    text-align:center;
+h1 {
+text-align: center;
 }
